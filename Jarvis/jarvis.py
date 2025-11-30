@@ -14,6 +14,7 @@ engine.setProperty('voice', voices[1].id)
 engine.setProperty('rate', 150)
 engine.setProperty('volume', 1)
 
+print("Jarvis is now running on AWS EC2!")
 
 def speak(audio) -> None:
     engine.say(audio)
